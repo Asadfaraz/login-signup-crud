@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ---------------*/
+.container {
+  width: 420px;
+  height: 550px;
+
+  margin: auto;
+  margin-top: 60px;
+
+  /* border-radius: 36px; */
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: linear-gradient(80deg, #d0cbcb, #fcfcfc);
+
+  text-align: center;
+}
+
+.container h1 {
+  padding: 20px;
+
+  font-size: 40px;
+  font-family: cursive;
+  letter-spacing: 3px;
+
+  background: -webkit-linear-gradient(rgb(41, 127, 255), rgb(243, 114, 114));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.inputs {
+  padding: 15px;
+}
+
+.inputs i {
+  font-size: 35px;
+  /* color: rgb(77, 186, 230); */
+}
+
+.inputs input {
+  font-size: 25px;
+  margin-left: 10px;
+
+  padding: 10px 0;
+
+  width: 300px;
+
+  border: none;
+
+  border-bottom: 1px solid black;
+
+  background-color: transparent;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+}
+.inputs input:focus {
+  border-bottom: 1px dashed black;
+  outline: none;
+}
+
+#signupbtn {
+  margin-top: 20px;
+  padding: 10px;
+
+  width: 130px;
+
+  background: linear-gradient(140deg, #68a6ee, #5c5ee8);
+
+  font-size: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+
+  border-radius: 20px;
+  border: none;
+}
+
+#signupbtn:hover {
+  padding: 12px;
+  background: linear-gradient(40deg, #e768ee, rgb(204, 38, 182));
+  cursor: pointer;
+}
+
+.register-here {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.register-here a {
+  text-decoration: none;
+  padding: 10px;
+
+  border-bottom: 1px dotted rgb(196, 79, 219);
+  color: red;
+}
+.register-here a:hover {
+  border: 1px solid rgb(236, 17, 145);
+  background: linear-gradient(140deg, #68a6ee, #5c5ee8);
+  color: white;
+}

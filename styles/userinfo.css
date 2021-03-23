@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#welcomeheader {
+  font-size: 48px;
+
+  font-family: Verdana, sans-serif;
+
+  color: lightblue;
+
+  text-align: center;
+  font-weight: 200;
+}
+
+#welcomename {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.btns {
+  display: flex;
+
+  justify-content: center;
+}
+
+.btns button {
+  padding: 10px;
+  margin: 15px;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#updatebtn {
+  background-color: rgb(119, 180, 21);
+  border: none;
+}
+#updatebtn:hover {
+  background-color: rgb(31, 142, 206);
+}
+
+#dltbtn {
+  background-color: rgb(240, 205, 205);
+  color: red;
+  border: none;
+}
+#dltbtn:hover {
+  background-color: red;
+  color: white;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awsome icons -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login Here</h1>
+
+      <div class="login-info">
+        <!--  -->
+
+        <form action="#">
+          <div class="inputs">
+            <i class="fas fa-envelope"></i>
+            <input
+              id="signinemail"
+              type="email"
+              required
+              placeholder="Enter Email"
+              autofocus
+            />
+          </div>
+
+          <div class="inputs">
+            <i class="fas fa-lock"></i>
+            <input
+              id="signinpassword"
+              type="password"
+              required
+              placeholder="Enter Password"
+            />
+          </div>
+
+          <input id="loginbtn" type="button" value="Login" />
+        </form>
+
+        <div class="register-here">
+          <a href="signup.html">Register here</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="js/signin.js"></script>
+  </body>
+</html>
